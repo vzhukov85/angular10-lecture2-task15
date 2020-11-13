@@ -1,4 +1,34 @@
 
-
-<app-one-one></app-one-one>
-
+<p> Generate modules: <br/>
+  <code>
+    for i in one two three four five; do ng g m "{{specialText}}" --module=app; done
+  </code>
+</p>
+<div style="border-style: solid; margin: 1px">
+  <h3>Module 1</h3>
+  <code>for i in one-one; do ng g c "one/{{specialText}}" --module one --export=true; done</code>
+  <app-one-one></app-one-one>
+</div>
+<div  style="border-style: solid; margin: 1px">
+  <h3>Module 2</h3>
+  <code>for i in two-one; do ng g c "two/{{specialText}}" --module two --export=true; done</code>
+  <app-two-one></app-two-one>
+</div>
+<div style="border-style: solid;  margin: 1px">
+  <h3>Module 3</h3>
+  <code>for i in three-one three-two; do ng g c "three/{{specialText}}" --module three --export=true; done</code>
+  <app-three-one></app-three-one><app-three-two></app-three-two>
+</div>
+<div style="border-style: solid;  margin: 1px">
+  <h3>Module 4</h3>
+  <code>for i in four-one four-two four-three; do ng g c "four/{{specialText}}" --module four --export=true; done</code>
+  <app-four-one></app-four-one><app-four-two></app-four-two>
+  <app-four-three></app-four-three>
+</div>
+<div style="border-style: solid;  margin: 1px">
+  <h3>Module 5</h3>
+  <code>for i in five-one five-two five-three five-four five-five; do ng g c "five/{{specialText}}" --module five --export=true; done</code>
+  <app-five-one></app-five-one><app-five-two></app-five-two>
+  <app-five-three></app-five-three><app-five-four></app-five-four>
+  <app-five-five></app-five-five>
+</div>

@@ -9,7 +9,7 @@ import { FourModule } from './four/four.module';
 import { FiveModule } from './five/five.module';
 
 @NgModule({
-  declarations: [],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     OneModule,
