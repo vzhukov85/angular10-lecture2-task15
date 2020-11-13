@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular10-lecture2-task15';
+  specialText="${i}"
 }
