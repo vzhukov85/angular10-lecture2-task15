@@ -9,7 +9,8 @@ import { FourThreeComponent } from './four-three/four-three.component';
 @NgModule({
   declarations: [FourOneComponent, FourTwoComponent, FourThreeComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    ThreeModule,
   ],
   exports: [FourOneComponent, FourTwoComponent, FourThreeComponent]
 })

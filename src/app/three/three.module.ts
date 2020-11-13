@@ -8,7 +8,8 @@ import { ThreeTwoComponent } from './three-two/three-two.component';
 @NgModule({
   declarations: [ThreeOneComponent, ThreeTwoComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    TwoModule,
   ],
   exports: [ThreeOneComponent, ThreeTwoComponent]
 })

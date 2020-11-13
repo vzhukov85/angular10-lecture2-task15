@@ -12,11 +12,7 @@ import { FiveModule } from './five/five.module';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    OneModule,
-    TwoModule,
-    ThreeModule,
-    FourModule,
-    FiveModule
+    FiveModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

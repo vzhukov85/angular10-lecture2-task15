@@ -7,7 +7,8 @@ import { TwoOneComponent } from './two-one/two-one.component';
 @NgModule({
   declarations: [TwoOneComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    OneModule
   ],
   exports: [TwoOneComponent]
 })

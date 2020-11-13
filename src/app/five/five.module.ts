@@ -11,7 +11,8 @@ import { FiveFiveComponent } from './five-five/five-five.component';
 @NgModule({
   declarations: [FiveOneComponent, FiveTwoComponent, FiveThreeComponent, FiveFourComponent, FiveFiveComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    FourModule,
   ],
   exports: [FiveOneComponent, FiveTwoComponent, FiveThreeComponent, FiveFourComponent, FiveFiveComponent]
 })
